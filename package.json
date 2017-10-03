@@ -1,0 +1,28 @@
+{
+  "name": "slice",
+  "displayName": "Slice",
+  "description": "Syntax highlighting for ZeroC Ice's IDL Slice",
+  "version": "0.0.1",
+  "publisher": "aikoven",
+  "engines": {
+    "vscode": "^1.16.0"
+  },
+  "categories": ["Languages"],
+  "contributes": {
+    "languages": [
+      {
+        "id": "slice",
+        "aliases": ["Slice", "slice"],
+        "extensions": [".ice"],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "slice",
+        "scopeName": "source.slice",
+        "path": "./syntaxes/Slice.tmLanguage"
+      }
+    ]
+  }
+}
