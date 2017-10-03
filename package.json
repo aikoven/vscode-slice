@@ -3,7 +3,12 @@
   "displayName": "Slice",
   "description": "Syntax highlighting for ZeroC Ice's IDL Slice",
   "version": "0.0.1",
+  "icon": "images/icon.png",
   "publisher": "aikoven",
+  "repository": {
+		"type": "git",
+		"url": "https://github.com/aikoven/vscode-slice.git"
+	},
   "engines": {
     "vscode": "^1.16.0"
   },
