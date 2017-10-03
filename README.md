@@ -1,6 +1,6 @@
 # Slice Language Support for Visual Studio Code
 
-Syntax highlighting for ZeroC Ice's IDL Slice
+Syntax highlighting for ZeroC [Ice](https://github.com/zeroc-ice/ice)'s IDL, [Slice](https://doc.zeroc.com/display/Ice/The+Slice+Language).
 
 ## Installation
 
