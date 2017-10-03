@@ -1,0 +1,94 @@
+{
+  "Pragma once": {
+    "prefix": "#pragma once",
+    "body": [
+      "#pragma once"
+    ],
+    "description": "Pragma once"
+  },
+  "Include": {
+    "prefix": "#include",
+    "body": [
+      "#include <${1:path}.ice>",
+      "$0"
+    ],
+    "description": "Include slice file"
+  },
+  "C-style comment": {
+    "prefix": "doc",
+    "body": [
+      "/**",
+      " * $0",
+      " **/"
+    ],
+    "description": "C-style comment"
+  },
+  "Module definition": {
+    "prefix": "module",
+    "body": [
+      "module ${1:name} {",
+      "\t$0",
+      "};"
+    ],
+    "description": "Module definition"
+  },
+  "Enum definition": {
+    "prefix": "enum",
+    "body": [
+      "enum ${1:name} {",
+      "\t$0",
+      "};"
+    ],
+    "description": "Enum definition"
+  },
+  "Structure definition": {
+    "prefix": "struct",
+    "body": [
+      "struct ${1:name} {",
+      "\t$0",
+      "};"
+    ],
+    "description": "Structure definition"
+  },  
+  "Interface definition": {
+    "prefix": "interface",
+    "body": [
+      "interface ${1:name} {",
+      "\t$0",
+      "};"
+    ],
+    "description": "Interface definition"
+  },  
+  "Class definition": {
+    "prefix": "class",
+    "body": [
+      "class ${1:name} {",
+      "\t$0",
+      "};"
+    ],
+    "description": "Class definition"
+  },  
+  "Exception definition": {
+    "prefix": "exception",
+    "body": [
+      "exception ${1:name} {",
+      "\t$0",
+      "};"
+    ],
+    "description": "Exception definition"
+  },  
+  "Sequence definition": {
+    "prefix": "sequence",
+    "body": [
+      "sequence<${1:element}> ${0:name};"
+    ],
+    "description": "Sequence definition"
+  },
+  "Dictionary definition": {
+    "prefix": "dictionary",
+    "body": [
+      "dictionary<${1:key}, ${2:value}> ${0:name};"
+    ],
+    "description": "Dictionary definition"
+  }  
+}
