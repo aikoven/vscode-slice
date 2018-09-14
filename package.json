@@ -2,7 +2,7 @@
     "name": "slice",
     "displayName": "Slice",
     "description": "Syntax highlighting for ZeroC Ice's IDL Slice",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "icon": "images/icon.png",
     "publisher": "aikoven",
     "repository": {
