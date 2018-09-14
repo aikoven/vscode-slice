@@ -17,8 +17,12 @@
         <string>#comments</string>
       </dict>
       <dict>
+        <key>include</key>
+        <string>#metadata</string>
+      </dict>
+      <dict>
         <key>match</key>
-        <string>\b(bool|byte|class|dictionary|double|enum|exception|float|int|interface|LocalObject|long|Object|sequence|short|string|struct|void)\b</string>
+        <string>\b(bool|byte|class|dictionary|double|enum|exception|float|int|interface|LocalObject|long|Object|Value|sequence|short|string|struct|void)\b</string>
         <key>name</key>
         <string>storage.type.slice</string>
       </dict>
@@ -270,6 +274,36 @@
                 </array>
               </dict>
             </array>
+          </dict>
+        </array>
+      </dict>
+      <key>metadata</key>
+      <dict>
+        <key>patterns</key>
+        <array>
+          <dict>
+            <key>begin</key>
+            <string>\[</string>
+            <key>beginCaptures</key>
+            <dict>
+              <key>0</key>
+              <dict>
+                <key>name</key>
+                <string>punctuation.definition.metadata.begin.slice</string>
+              </dict>
+            </dict>
+            <key>end</key>
+            <string>\]</string>
+            <key>endCaptures</key>
+            <dict>
+              <key>0</key>
+              <dict>
+                <key>name</key>
+                <string>punctuation.definition.metadata.end.slice</string>
+              </dict>
+            </dict>
+            <key>name</key>
+            <string>support.function.metadata.slice</string>
           </dict>
         </array>
       </dict>
