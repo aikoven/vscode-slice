@@ -1,5 +1,7 @@
 # Slice Language Support for Visual Studio Code
 
+> Deprecated! Please use the [official extension](https://marketplace.visualstudio.com/items?itemName=ZeroCInc.slice).
+
 Syntax highlighting and code snippets for 
 ZeroC [Ice](https://github.com/zeroc-ice/ice)'s IDL, 
 [Slice](https://doc.zeroc.com/display/Ice/The+Slice+Language).
