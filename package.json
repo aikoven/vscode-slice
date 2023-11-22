@@ -2,7 +2,7 @@
     "name": "slice",
     "displayName": "Slice (Unofficial and deprecated)",
     "description": "Deprecated unofficial syntax highlighting for ZeroC Ice's IDL Slice",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "icon": "images/icon.png",
     "publisher": "aikoven",
     "repository": {
